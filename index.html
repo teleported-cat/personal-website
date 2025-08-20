@@ -8,10 +8,12 @@
         <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
         <!--Custom Styling-->
         <link rel="stylesheet" href="styles.css" />
+        <!--Bootstrap Icons-->
+        <link rel="stylesheet" href="node_modules/bootstrap-icons/font/bootstrap-icons.min.css">
     </head>
     <body>
         <header>
-            <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <nav class="navbar navbar-expand-lg bg-body-tertiary navbar-base">
                 <div class="container-fluid">
                     <a class="navbar-brand" href="#">
                         <img class="navbar-brand-image d-inline-block align-text-top" src="images/brand.png" alt="Brand Image"/>
@@ -31,12 +33,20 @@
                     <div class="collapse navbar-collapse" id="navbarNav">
                         <ul class="navbar-nav">
                             <li class="nav-item">
-                                <a class="nav-link" href="#">About Me</a>
+                                <a class="nav-link navbar-item-border-first" href="#">About Me</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Projects</a>
+                                <a class="nav-link navbar-item-border-after" href="#">Projects</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link navbar-item-border-after" href="#">Placeholder</a>
                             </li>
                         </ul>
+                        <span class="navbar-text margin-auto d-lineline-flex">
+                            <a class="navbar-contact" href="www.linkedin.com/in/patrick-ross-brown"><i class="bi bi-linkedin"></i></a>
+                            <a class="navbar-contact" href="https://github.com/teleported-cat"><i class="bi bi-github"></i></a>
+                            <a class="navbar-contact" href="mailto:placeholder@gmail.com"><i class="bi bi-envelope-fill"></i></a>
+                        </span>
                     </div>
                 </div>
             </nav>
