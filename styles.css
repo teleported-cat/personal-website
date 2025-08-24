@@ -14,6 +14,10 @@ body {
     background-color: black;
 }
 
+p {
+    margin: 0;
+}
+
 .navbar-brand-image {
     width: 32px;
     border-radius: 5px;
@@ -27,6 +31,11 @@ body {
 
     .navbar-item-border-after {
         border-right: 1px var(--navbar-item-border) solid;
+    }
+
+    .section-base-mobile {
+        margin-left: 10% !important;
+        margin-right: 10% !important;
     }
 }
 
@@ -51,9 +60,28 @@ body {
 }
 
 .section-base {
-    margin: 10px 40px 10px 40px;
-    padding: 15px 20px 10px 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 20px;
     border-radius: 20px;
     border: 1px var(--section-card-border) solid;
     background-color: var(--section-background);
+}
+
+.footer-base {
+    margin: 20px;
+    padding: 20px;
+    border-radius: 20px;
+    border: 1px var(--section-card-border) solid;
+    background-color: var(--section-background);
+}
+
+.section-image {
+    height: 300px;
+    max-width: 100%;
+    object-fit: contain;
+    object-position: center;
+    border-radius: 20px;
 }
